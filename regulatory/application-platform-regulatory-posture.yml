@@ -1,0 +1,40 @@
+generated: '2026-10-16'
+method: probed
+source: https://www.mainpath.ai/en/privacy/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://www.mainpath.ai/en/privacy/index.md
+        http_status: 200
+        fetched: /tmp/privacy.md
+        quote: "Under the GDPR you may have rights of access, rectification, erasure, restriction, objection, data portability, and the right to lodge a complaint with a supervisory authority."
+        url: https://www.mainpath.ai/en/privacy/
+        section: "Your rights"
+        note: Provides GDPR data subject rights.
+  subprocessors:
+    evidence:
+      - source: https://www.mainpath.ai/en/privacy/index.md
+        http_status: 200
+        fetched: /tmp/privacy.md
+        quote: "Where required, we have concluded a data processing agreement with Hetzner pursuant to Art. 28 GDPR."
+        url: https://www.mainpath.ai/en/privacy/
+        section: "Hosting and website access"
+        note: Mentions DPA with Hetzner as subprocessor.
+  data_residency:
+    evidence:
+      - source: https://www.mainpath.ai/en/privacy/index.md
+        http_status: 200
+        fetched: /tmp/privacy.md
+        quote: "This website is hosted on servers provided by Hetzner Online GmbH, Industriesstr. 25, 91710 Gunzenhausen, Germany."
+        url: https://www.mainpath.ai/en/privacy/
+        section: "Hosting and website access"
+        note: Indicates data stored in Germany.
+  ai_transparency:
+    evidence:
+      - source: https://www.mainpath.ai/en/privacy/index.md
+        http_status: 200
+        fetched: /tmp/privacy.md
+        quote: "Optional model inference may be provided by OpenAI (USA) under a data processing agreement and Standard Contractual Clauses."
+        url: https://www.mainpath.ai/en/privacy/
+        section: "Your rights"
+        note: Discloses AI model inference and transfer.

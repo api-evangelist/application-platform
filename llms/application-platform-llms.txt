@@ -1,0 +1,371 @@
+# MainPath
+
+> MainPath for fast product development with stable architecture and automated delivery.
+
+MainPath sets up complete software projects. Repository, CI/CD, servers, domains, workspaces and app store releases. Operation and data processing happen inside the EU, and the code stays yours.
+
+Each HTML page also has a Markdown copy at the same path with index.md (and as page.md via the server). Use those files instead of scraping the HTML.
+
+## For AI agents
+- [Full documentation (single file)](https://www.mainpath.ai/en/llms-full.txt): Concatenated Markdown of every documentation page, in sidebar order. Prefer this when you need the whole corpus in one request.
+- [Documentation index](https://www.mainpath.ai/en/docs/llms.txt): Grouped Markdown links for every documentation page, in sidebar order.
+
+- [CLI and agent plugin](https://www.mainpath.ai/en/docs/cli-and-agent-plugin/index.md): The mp CLI is your access to MainPath from the terminal, and the agent plugin gives Cursor, Claude Code and Codex the same functions as MCP tools.
+
+
+- [Your own rules for AI agents](https://www.mainpath.ai/en/docs/ai-instructions/index.md): Platform rules come from the mp CLI agent plugin. Project-specific instructions go in AGENTS.md in the application repository.
+
+
+- [Import an existing repository](https://www.mainpath.ai/en/docs/agent-project-import/index.md): A local folder becomes a platform project with repositories, pipelines and deployment, either through the agent or with mp platform projects import-local.
+
+
+
+## Main pages
+
+- [Target Groups](https://www.mainpath.ai/en/target-groups/): AI training, hackathon, agency or solo developer. Find the page that matches how you want to use MainPath.
+
+- [Solutions](https://www.mainpath.ai/en/solutions/): GDPR hosting, your own servers, store releases, workspaces, CI/CD. Jobs that otherwise become another subscription.
+
+- [Alternatives & comparisons](https://www.mainpath.ai/en/alternatives/): Vercel alternative, Heroku alternative, Coolify, Render, Railway, Netlify, Codespaces, Hetzner. Where the tool stops, and what we set up instead.
+
+- [Use cases](https://www.mainpath.ai/en/use-cases/)
+
+- [By Technology](https://www.mainpath.ai/en/stacks/): How deployment and operation look for your specific stack.
+
+- [Blog](https://www.mainpath.ai/en/blog/)
+
+- [Comparisons & solutions](https://www.mainpath.ai/en/more/): Vercel alternative, Heroku alternative, Coolify alternative, GDPR hosting, plus stack and team pages.
+
+- [Features](https://www.mainpath.ai/en/features/): What MainPath sets up for a project, by area: development, hosting, apps and stores, operations, and organization.
+
+- [Wiki](https://www.mainpath.ai/en/wiki/): Short explanations of the terms that come up when setting up an IT project.
+
+- [Pilot customers](https://www.mainpath.ai/en/pilotkunden/index.md): Register as a MainPath pilot customer. Name and mobile number only — we will get back to you personally.
+
+- [Pilot customers for agencies](https://www.mainpath.ai/en/agency-pilots/index.md): Agencies get MainPath free for as long as they use it. Register with your name and mobile number. Once you are happy with it, we ask for a quote on this website and active feedback.
+
+- [MainPath for pupils and students](https://www.mainpath.ai/en/for-pupils-and-students/index.md): With a school or university email the Team plan is free for three years.
+
+- [About us](https://www.mainpath.ai/en/about/index.md): MainPath makes IT setup simple. You host the repos and servers.
+
+- [Changelog](https://www.mainpath.ai/en/changelog/index.md): What changed for people using MainPath. By day, not internal engineering tickets.
+
+- [Chat sign-in](https://www.mainpath.ai/en/chat-oidc-callback/index.md): Completes MainPath chat sign-in.
+
+- [Compliance & contracts](https://www.mainpath.ai/en/platform-compliance/index.md): DPA, TOMs, subprocessors, and processing locations for MainPath. Written for privacy, procurement, and security reviews.
+
+- [Downloads](https://www.mainpath.ai/en/downloads/index.md)
+
+- [Feedback](https://www.mainpath.ai/en/feedback/index.md): Tell us what is missing, unclear, or worth improving next.
+
+- [Imprint](https://www.mainpath.ai/en/imprint/index.md): Information on the provider of this website (legal notice).
+
+- [MainPath Demo](https://www.mainpath.ai/en/demo/index.md): Try MainPath today, with no commitment at all. The guest account demo-guest opens a demo tenant you can look through.
+
+- [Pricing](https://www.mainpath.ai/en/pricing/index.md)
+
+- [Privacy policy](https://www.mainpath.ai/en/privacy/index.md): How we process personal data on this website.
+
+- [Privacy policy for agency pilot customers](https://www.mainpath.ai/en/agency-pilot-privacy/index.md): What we process when an agency registers as a pilot customer.
+
+- [Privacy policy for pilot customers](https://www.mainpath.ai/en/pilot-privacy/index.md): What we process when you register as a pilot customer.
+
+- [Support](https://www.mainpath.ai/en/support/index.md)
+
+- [Terms of use](https://www.mainpath.ai/en/terms/index.md): Terms of use for MainPath operated by doppelt.digital GmbH.
+
+
+
+## Comparisons and solutions
+
+- [Vercel alternative for backend, servers and apps](https://www.mainpath.ai/en/alternatives/vercel-alternative/index.md): Vercel alternative on your own EU servers: frontend plus backend, databases, mobile apps and store releases. Not only Next.js at the edge.
+
+- [Heroku alternative with your own servers instead of dynos](https://www.mainpath.ai/en/alternatives/heroku-alternative/index.md): Heroku alternative without the dyno model: your own or managed servers, GitLab CI, mobile apps and store releases, operated in the EU.
+
+- [Netlify alternative for the full project chain](https://www.mainpath.ai/en/alternatives/netlify-alternative/index.md): Netlify alternative beyond Jamstack: backend, your own servers, mobile apps and store releases in one setup, hosted in the EU.
+
+- [Railway alternative with predictable server cost](https://www.mainpath.ai/en/alternatives/railway-alternative/index.md): Railway alternative for teams that want their own servers, EU operations and mobile releases instead of usage-based container bills.
+
+- [Coolify alternative: self-hosted PaaS without running the panel](https://www.mainpath.ai/en/alternatives/coolify-alternative/index.md): Coolify alternative with a managed platform: deploy to your servers without operating Coolify yourself. Including CI/CD, mobile and stores.
+
+- [Render alternative for your own servers and the full chain](https://www.mainpath.ai/en/alternatives/render-alternative/index.md): Render alternative with SSH to the machines, EU operations, GitLab CI and mobile releases. Not only managed web services.
+
+- [GitHub Codespaces alternative that also ships the product](https://www.mainpath.ai/en/alternatives/github-codespaces-alternative/index.md): GitHub Codespaces alternative: cloud workspaces plus CI/CD, servers and store releases, instead of starting over after the commit.
+
+- [Automate Hetzner deployment over SSH](https://www.mainpath.ai/en/alternatives/deploy-to-hetzner/index.md): Automate Hetzner deployment: attach a server over SSH, let Docker, proxy, SSL and backups be set up, and hook it to the CI/CD pipeline.
+
+- [Self-hosted PaaS without running the control plane](https://www.mainpath.ai/en/solutions/self-hosted-paas/index.md): Self-hosted PaaS on your infrastructure: Docker and data on your servers, while the control plane is operated for you.
+
+- [GDPR-compliant hosting for software teams](https://www.mainpath.ai/en/solutions/dsgvo-hosting/index.md): GDPR-compliant hosting in the EU: repositories, deployments, a processing agreement and an audit log for web, backend and apps.
+
+- [Host and deploy internal tools](https://www.mainpath.ai/en/solutions/internal-tools/index.md): Host internal tools instead of running them on a laptop: repository, pipeline, your own server, domain and access control for the tools your team builds itself.
+
+- [Automate App Store deployment](https://www.mainpath.ai/en/solutions/app-store-automatisierung/index.md): Automate App Store deployment: signing, metadata, screenshots and releases for the App Store and Google Play from the same pipeline.
+
+- [Cloud development environment for the whole team](https://www.mainpath.ai/en/solutions/cloud-entwicklungsumgebungen/index.md): Cloud development environment with VS Code, JetBrains, RDP and VNC. The same workspaces already wired to CI/CD and servers.
+
+- [Whitelabel apps from one codebase](https://www.mainpath.ai/en/solutions/whitelabel-apps/index.md): Whitelabel apps: several brands, bundles and store listings from one codebase, without forking a repo per brand.
+
+- [Automate the CI/CD pipeline with GitLab CI](https://www.mainpath.ai/en/solutions/ci-cd-automatisierung/index.md): Automate the CI/CD pipeline: test, build, publish and release as GitLab CI in the repository, instead of redrawing it for every project.
+
+- [AI coding agent infrastructure for teams](https://www.mainpath.ai/en/solutions/ai-coding-agents/index.md): AI coding agent infrastructure: access, workspace and pipeline so agent changes land somewhere and get reviewed.
+
+- [Mobile CI/CD for app, web and backend](https://www.mainpath.ai/en/solutions/mobile-ci-cd/index.md): Mobile CI/CD for Flutter, Expo and native apps. Plus the same pipeline for web and backend, instead of only Bitrise or Codemagic for the store.
+
+
+
+## Blog
+
+- [Personal API Keys: Automating the Platform](https://www.mainpath.ai/en/blog/api-keys/index.md): Personal API keys let the mp CLI, your CI runs and your own scripts authenticate against MainPath without anyone signing in through a browser.
+
+- [Export a Project as PDF: Clean Handovers at the End](https://www.mainpath.ai/en/blog/project-pdf-export/index.md): The project PDF export bundles a title page, an introduction and optionally the credentials. For customer handovers, documentation and proof of what a project holds.
+
+- [Compliance Documents on Demand: DPA, TOMs and Sub-Processors](https://www.mainpath.ai/en/blog/compliance-documents/index.md): The new compliance area provides your data processing agreement, technical and organisational measures and the sub-processor list as ready-to-share PDFs.
+
+- [Connections Reworked: Firebase, Mailtrap, Sentry and Stores](https://www.mainpath.ai/en/blog/service-connections/index.md): The reworked connections area keeps Firebase, Mailtrap, Sentry and store accounts in one place and validates every set of credentials before it is saved.
+
+- [Native iOS and Android Apps: More Ways to Ship a Release](https://www.mainpath.ai/en/blog/native-app-releases/index.md): Native iOS apps in Swift and native Android apps in Kotlin are now project types, together with fine-grained release options for macOS applications.
+
+- [Connect to a Workspace: New Wizard, No Second Password](https://www.mainpath.ai/en/blog/workspace-connect/index.md): A step-by-step wizard walks you through VPN, client and connection. To connect to a workspace you now use your platform password, with no separate secret involved.
+
+- [Error Tracking with Sentry, After You Connect It](https://www.mainpath.ai/en/blog/sentry-error-tracking/index.md): MainPath configures Sentry once you connect your account under Connections. Production errors show up with stack trace, release and context in your project. After connecting, single sign-on into that Sentry organisation is set up for the team.
+
+
+
+## Documentation
+
+- [Quickstart](https://www.mainpath.ai/en/docs/quickstart/index.md): Four steps onto MainPath: install the mp CLI, add the agent plugin, import or create a project, run and publish.
+
+- [What is MainPath?](https://www.mainpath.ai/en/docs/what-is-the-platform/index.md): MainPath takes care of repositories, pipelines, servers, and deployments so that you can concentrate on your application.
+
+- [Terms you will come across](https://www.mainpath.ai/en/docs/basics/index.md): Repository, commit, pipeline, server, Docker, and workspace are terms you will meet constantly on MainPath, and each of them is explained briefly and in relation to MainPath.
+
+- [Create your first project](https://www.mainpath.ai/en/docs/getting-started/index.md): You register, create an organization, and create your first project in the wizard, which MainPath generates with repositories in GitLab.
+
+- [Bring in an existing project](https://www.mainpath.ai/en/docs/import-existing-project/index.md): A folder you built with Claude Code, Cursor, or Codex comes onto MainPath with one prompt, provided its tech stack is supported.
+
+- [Set DNS with IONOS](https://www.mainpath.ai/en/docs/dns-ionos/index.md): Connect an IONOS API key once. MainPath writes A and CNAME records into your zone.
+
+- [Set DNS with united-domains](https://www.mainpath.ai/en/docs/dns-united-domains/index.md): Connect a united-domains API key once. MainPath writes A and CNAME records into your zone.
+
+- [Set DNS with Hetzner](https://www.mainpath.ai/en/docs/dns-hetzner/index.md): Connect a Hetzner Cloud API token once. MainPath writes A and CNAME records into your DNS zones.
+
+- [Set DNS with GoDaddy](https://www.mainpath.ai/en/docs/dns-godaddy/index.md): Connect a GoDaddy account once. MainPath writes A and CNAME records into your zone.
+
+- [Set DNS with Hostinger](https://www.mainpath.ai/en/docs/dns-hostinger/index.md): Connect a Hostinger API token once. MainPath writes A and CNAME records into your DNS zones.
+
+- [Set DNS with DigitalOcean](https://www.mainpath.ai/en/docs/dns-digitalocean/index.md): Connect a DigitalOcean API token once. MainPath writes A and CNAME records into your domains.
+
+- [Set up your computer or work in the browser](https://www.mainpath.ai/en/docs/setup-your-computer/index.md): You either work on your own computer, which the MainPath Toolbox prepares, or in a remote workspace in the cloud, and both paths lead to the same project folder.
+
+- [Set DNS with Gandi](https://www.mainpath.ai/en/docs/dns-gandi/index.md): Connect a Gandi Personal Access Token once. MainPath writes A and CNAME records into your LiveDNS zones.
+
+- [Open and run your project](https://www.mainpath.ai/en/docs/open-and-run/index.md): You open the project folder in the editor, start a terminal, run the application with mp run-local, and view it in the browser.
+
+- [Work with an AI agent](https://www.mainpath.ai/en/docs/work-with-ai-agents/index.md): Claude Code, Cursor, and Codex know MainPath's rules and talk to the platform directly through the agent plugin.
+
+- [Save changes and publish](https://www.mainpath.ai/en/docs/save-and-publish/index.md): With a commit and a push your changes land in GitLab, the pipeline brings them to the dev server, and you release production with a click.
+
+- [When something does not work](https://www.mainpath.ai/en/docs/get-help/index.md): Most typical stumbling blocks when getting started can be checked yourself, and if that is not enough, support helps.
+
+- [What is GitLab?](https://www.mainpath.ai/en/docs/what-is-gitlab/index.md): GitLab is where the code of your projects lives and where the pipelines run, and day to day you only need a few of its functions.
+
+- [What are pipelines?](https://www.mainpath.ai/en/docs/what-are-pipelines/index.md): A pipeline tests, versions, builds, and distributes your application after every push to main, and you start the last step to production yourself.
+
+- [Overview in five minutes](https://www.mainpath.ai/en/docs/developer-overview/index.md): Organizations, projects and the generated repositories, the path from push to production, and the two ways of working form the frame in which you work with MainPath as a developer.
+
+- [CLI and agent plugin](https://www.mainpath.ai/en/docs/cli-and-agent-plugin/index.md): The mp CLI is your access to MainPath from the terminal, and the agent plugin gives Cursor, Claude Code and Codex the same functions as MCP tools.
+
+- [Create a new project](https://www.mainpath.ai/en/docs/create-project/index.md): A new project is created in the wizard of the web interface or as JSON through the mp CLI and the MCP tools of the agent plugin.
+
+- [Import an existing repository](https://www.mainpath.ai/en/docs/agent-project-import/index.md): A local folder becomes a platform project with repositories, pipelines and deployment, either through the agent or with mp platform projects import-local.
+
+- [Local development](https://www.mainpath.ai/en/docs/local-development/index.md): In the cloned workspace you start every application with mp run-local, use the runtimes from .tool-versions and follow the rules for generated and custom files, which apply to AI agents as well.
+
+- [Git workflow and deployment](https://www.mainpath.ai/en/docs/git-workflow/index.md): A push to main starts the pipeline, which derives the version from the commit messages, rolls out dev automatically and releases production through a manual job; an earlier state can be restored the same way.
+
+- [Working locally on your project](https://www.mainpath.ai/en/docs/working-locally/index.md): The MainPath Toolbox prepares your machine and clones all repositories of a project into one shared folder where editors and AI agents see the whole project.
+
+- [Requirements for local development](https://www.mainpath.ai/en/docs/local-requirements/index.md): A machine running macOS, Windows, or Linux, administrator rights, and your account are all you need, because the MainPath Toolbox installs the development tools during developer setup.
+
+- [The MainPath Toolbox and the mp CLI](https://www.mainpath.ai/en/docs/local-app/index.md): The MainPath Toolbox prepares your machine, clones projects, and opens them in the editor of your choice, while the mp CLI starts applications from the terminal and connects you to MainPath.
+
+- [Working with a remote workspace](https://www.mainpath.ai/en/docs/workspaces-overview/index.md): A remote workspace is a prepared Ubuntu VM in the cloud where you work on your projects without installing anything on your own computer.
+
+- [Create a workspace](https://www.mainpath.ai/en/docs/create-workspace/index.md): Administrators create a workspace in the web interface, pick the project and the person, and let MainPath provision the VM.
+
+- [Connect to your workspace](https://www.mainpath.ai/en/docs/workspace-vm-access/index.md): You reach your workspace through the private Tailscale network, either via RDP or VNC on the desktop or with VS Code in the browser.
+
+- [Set up Tailscale](https://www.mainpath.ai/en/docs/workspace-vm-tailscale/index.md): Tailscale connects your device to the private workspace network and is required for RDP, SSH, and the workspace apps in the browser.
+
+- [Tailscale on macOS](https://www.mainpath.ai/en/docs/workspace-vm-tailscale-macos/index.md): On a Mac you install the Tailscale app and sign it in to MainPath's workspace network through an alternate server.
+
+- [Tailscale on Linux](https://www.mainpath.ai/en/docs/workspace-vm-tailscale-linux/index.md): On Linux you install Tailscale with the official script and sign in to MainPath's workspace network from the terminal.
+
+- [Tailscale on Windows](https://www.mainpath.ai/en/docs/workspace-vm-tailscale-windows/index.md): On Windows you install Tailscale and sign in to MainPath's workspace network from PowerShell or through the app's settings.
+
+- [Tailscale on iOS](https://www.mainpath.ai/en/docs/workspace-vm-tailscale-ios/index.md): On iPhone and iPad you set up Tailscale with MainPath's coordination server, mainly for status checks and light access.
+
+- [Tailscale on Android](https://www.mainpath.ai/en/docs/workspace-vm-tailscale-android/index.md): On Android you set up Tailscale with MainPath's coordination server and use it on the go mainly for status checks.
+
+- [Desktop via RDP](https://www.mainpath.ai/en/docs/workspace-rdp/index.md): With an RDP client you open the graphical Ubuntu desktop of your workspace from Windows, macOS, or Linux.
+
+- [Desktop via VNC](https://www.mainpath.ai/en/docs/workspace-vnc/index.md): VNC is an alternative way to reach the same Ubuntu desktop, provided your workspace offers it.
+
+- [Workspace VMs](https://www.mainpath.ai/en/docs/workspace-vms/index.md): Workspace VMs are the Ubuntu machines behind a remote workspace, with a desktop, tools, a workspace start page, and Code Server per project.
+
+- [Working with projects](https://www.mainpath.ai/en/docs/workspace-vm-project-work/index.md): In the workspace, all repositories of a project sit next to each other, and you start, commit, and push as you would on a local computer.
+
+- [Installed software](https://www.mainpath.ai/en/docs/workspace-ubuntu-software/index.md): The Ubuntu workspace comes with editors, AI agents, runtimes, Docker, and Git, so you can work without installing anything yourself.
+
+- [Troubleshooting](https://www.mainpath.ai/en/docs/workspace-vm-troubleshooting/index.md): Checks for workspaces when the RDP connection fails, a tool is missing, a port is in use, or a project folder is missing.
+
+- [Starting applications](https://www.mainpath.ai/en/docs/workspace-ubuntu-dev-scripts/index.md): You start every application of a project with mp run-local in the root of its repository, and the command works the same locally on your machine and in the remote workspace.
+
+- [Working with environment variables](https://www.mainpath.ai/en/docs/environment-setup/index.md): MainPath writes the generated env files, your own values belong in the custom files, and the deployment to dev and prod is configured in the gitops-configuration repository.
+
+- [Choose your editor](https://www.mainpath.ai/en/docs/choosing-your-ide/index.md): VS Code is the recommended starting point, and Cursor, Antigravity, JetBrains, Claude Code and Codex work with the same editor configuration from local-configuration.
+
+- [Cursor, VS Code and Antigravity](https://www.mainpath.ai/en/docs/vscode-cursor-antigravity/index.md): MainPath extension and the editor configuration from local-configuration work the same way in VS Code, Cursor and Antigravity, and Cursor adds the agent plugin.
+
+- [JetBrains](https://www.mainpath.ai/en/docs/jetbrains/index.md): IntelliJ IDEA and other JetBrains IDEs work with platform projects, though with a leaner integration than VS Code.
+
+- [Claude Code](https://www.mainpath.ai/en/docs/claude-code/index.md): Claude Code works in the terminal or as a desktop app and gets skills, rules, and MCP through mp agent install.
+
+- [Codex](https://www.mainpath.ai/en/docs/codex/index.md): Codex runs as a CLI, desktop app or VS Code extension and gets skills, rules, and MCP through mp agent install.
+
+- [Your own rules for AI agents](https://www.mainpath.ai/en/docs/ai-instructions/index.md): Platform rules come from the mp CLI agent plugin. Project-specific instructions go in AGENTS.md in the application repository.
+
+- [Connections](https://www.mainpath.ai/en/docs/connections/index.md): Under Connections you store access to Sentry, Firebase, DNS providers, email delivery, Git, Docker registries, and AI providers once for your whole organization.
+
+- [GitHub: credentials](https://www.mainpath.ai/en/docs/github-credentials/index.md): Under Connections, category Git, you connect a GitHub account via OAuth or a personal access token so MainPath can create or import repositories in your account and run pipelines there.
+
+- [GitLab: credentials](https://www.mainpath.ai/en/docs/gitlab-credentials/index.md): Under Connections, category Git, you connect GitLab.com or a self-hosted instance via OAuth or a personal access token so MainPath can create or import groups and projects there.
+
+- [OpenAI: credentials](https://www.mainpath.ai/en/docs/openai-credentials/index.md): Under Connections, category AI providers, you store an OpenAI Platform API key so workspaces can use Codex and other agents with your account.
+
+- [Anthropic: credentials](https://www.mainpath.ai/en/docs/anthropic-credentials/index.md): Under Connections, category AI providers, you store an Anthropic API key so workspaces can use Claude Code with your account.
+
+- [Beszel: your own hub](https://www.mainpath.ai/en/docs/beszel-credentials/index.md): Under Connections, category Monitoring, you store your own Beszel hub so servers can use it instead of MainPath-managed service.
+
+- [Docker Hub: credentials](https://www.mainpath.ai/en/docs/docker-hub-credentials/index.md): Under Connections, category Docker registries, you store Docker Hub with an access token. GitHub hosting requires this connection so builds can push images there and GitOps can pull them.
+
+- [Google Gemini: credentials](https://www.mainpath.ai/en/docs/google-gemini-credentials/index.md): Under Connections, category AI providers, you store a Google AI Studio API key so workspaces can use Gemini with your account.
+
+- [Mistral AI: credentials](https://www.mainpath.ai/en/docs/mistral-credentials/index.md): Under Connections, category AI providers, you store a Mistral API key so workspaces can use Mistral models with your account.
+
+- [Cursor: credentials](https://www.mainpath.ai/en/docs/cursor-credentials/index.md): Under Connections, category AI providers, you store a Cursor dashboard API key, the official way to access the Cursor API.
+
+- [Firebase: credentials](https://www.mainpath.ai/en/docs/firebase-credentials/index.md): You connect Firebase to your organization with a service account JSON or through OAuth so that MainPath can create Firebase projects for push notifications and write the configuration into your apps.
+
+- [Kubernetes clusters](https://www.mainpath.ai/en/docs/kubernetes-integration/index.md): Under Kubernetes clusters you create clusters in AWS, Azure, Google Cloud, or Open Telekom Cloud, or import an existing kubeconfig. Applications can then run as workloads on the cluster.
+
+- [Cloud accounts](https://www.mainpath.ai/en/docs/cloud-accounts/index.md): Under Cloud accounts you store credentials for AWS, Azure, Google Cloud, and Open Telekom Cloud, and you see the resources MainPath created in that account.
+
+- [AWS: credentials](https://www.mainpath.ai/en/docs/aws-cloud-credentials/index.md): You create an IAM access key, store it under Cloud accounts, and let MainPath create Kubernetes clusters and databases in your AWS account.
+
+- [Azure: credentials](https://www.mainpath.ai/en/docs/azure-cloud-credentials/index.md): You create an app registration in Entra ID, store tenant, client, and secret under Cloud accounts, and let MainPath create clusters in your Azure subscription.
+
+- [Google Cloud: credentials](https://www.mainpath.ai/en/docs/gcp-cloud-credentials/index.md): You create a service-account JSON key, store it under Cloud accounts, and let MainPath create GKE clusters and databases in your Google Cloud project.
+
+- [Open Telekom Cloud: credentials](https://www.mainpath.ai/en/docs/otc-cloud-credentials/index.md): You create an access key in the OTC console, store it under Cloud accounts, and let MainPath create clusters and databases in your project.
+
+- [Docker Apps from the catalog](https://www.mainpath.ai/en/docs/hosted-apps/index.md): Under Docker Apps you run existing software such as WordPress, Nextcloud, or n8n on your own server without setting up a project of your own.
+
+- [Email delivery](https://www.mainpath.ai/en/docs/email-delivery/index.md): Backends in your projects send email through a mail account that you store for the organization, either as a Mailtrap, Resend, or SendGrid connection or as a generic SMTP account.
+
+- [Setting up email delivery with Mailtrap](https://www.mainpath.ai/en/docs/smtp-mailtrap-setup/index.md): You create an API token at Mailtrap, store it under Connections, and then monitor status and sending domains directly in MainPath.
+
+- [Setting up email delivery with Resend](https://www.mainpath.ai/en/docs/smtp-resend-setup/index.md): You create an API key at Resend, store it under Connections, and then monitor status and sending domains directly in MainPath.
+
+- [Setting up email delivery with SendGrid](https://www.mainpath.ai/en/docs/smtp-sendgrid-setup/index.md): You create an API key at SendGrid, store it under Connections, and then monitor status and authenticated domains directly in MainPath.
+
+- [SMTP, IMAP and co.](https://www.mainpath.ai/en/docs/email-protocols-smtp-imap/index.md): MainPath only needs SMTP to send email, while IMAP and POP3 concern mailboxes and play no role in the connection.
+
+- [Error tracking](https://www.mainpath.ai/en/docs/error-tracking/index.md): Errors from apps, homepages, and backends land in your own Sentry account with stack trace and release version once you have connected it and enabled it per component.
+
+- [Sentry: credentials](https://www.mainpath.ai/en/docs/sentry-credentials/index.md): You connect your Sentry account to your organization either through OAuth for Sentry Cloud or with an API token, which also works for a self-hosted instance.
+
+- [Working with Sentry](https://www.mainpath.ai/en/docs/working-with-sentry/index.md): You open Sentry from the project overview, read issues with stack trace and frequency, and check after each release which errors are new.
+
+- [Servers](https://www.mainpath.ai/en/docs/servers/index.md): Backends, browser apps, and websites run on a server that you connect to MainPath in one of four ways.
+
+- [Network tunnels](https://www.mainpath.ai/en/docs/network-tunnels/index.md): A tunnel lets MainPath reach servers behind a firewall or NAT without exposing SSH to the internet.
+
+- [Your own server (SSH)](https://www.mainpath.ai/en/docs/own-server/index.md): You connect an existing Linux server to MainPath over SSH, and MainPath then sets it up and uses it for deployments.
+
+- [Create an SSH key and add it to your server](https://www.mainpath.ai/en/docs/create-ssh-key/index.md): You generate an SSH key pair in the terminal, place the public key on the server, and store the private key in MainPath.
+
+- [Webspace (FTP/SFTP)](https://www.mainpath.ai/en/docs/webspace-ftp/index.md): Projects that consist of homepages only are uploaded by the pipeline to an existing webspace over FTP or SFTP, so no Docker server is needed.
+
+- [Cloud servers with your account](https://www.mainpath.ai/en/docs/cloud-servers/index.md): MainPath creates and sets up servers in your own Hetzner or Hostinger account, so the servers belong to you and you pay the provider directly.
+
+- [Create a server at Hetzner](https://www.mainpath.ai/en/docs/hetzner-tutorial/index.md): You generate an API token in the Hetzner Cloud Console, store it in MainPath, and let MainPath create a server in your Hetzner account with it.
+
+- [Create a server at Hostinger](https://www.mainpath.ai/en/docs/hostinger-tutorial/index.md): You generate an API token in the Hostinger hPanel, store it in MainPath, and let MainPath create a VPS in your Hostinger account with it.
+
+- [Managed server](https://www.mainpath.ai/en/docs/managed-server/index.md): MainPath provisions, sets up, and operates a managed server itself and bills it through your subscription, so you do not need an account with a cloud provider.
+
+- [Domain](https://www.mainpath.ai/en/docs/domain/index.md): To make your project reachable under a name of its own, you enter a domain and set the DNS records MainPath shows you at your domain provider.
+
+- [Buy a domain](https://www.mainpath.ai/en/docs/buy-domain/index.md): MainPath does not sell domains, so you buy one from a registrar and make sure above all that you can edit its DNS zone yourself.
+
+- [Configure DNS](https://www.mainpath.ai/en/docs/domain-how-to/index.md): You copy the DNS records from MainPath's domain detail into your domain provider's DNS management and wait until a check mark appears in the Status column.
+
+- [Set DNS with Cloudflare](https://www.mainpath.ai/en/docs/dns-cloudflare/index.md): If your domain is hosted at Cloudflare, you connect an API token once and MainPath writes the A and CNAME records into your zone itself.
+
+- [Publish apps (iOS and Android)](https://www.mainpath.ai/en/docs/publish-apps/index.md): The pipeline builds and signs your app, distributes it to TestFlight and the Internal Track, and then waits for you to release it to the store.
+
+- [Store accounts](https://www.mainpath.ai/en/docs/store-accounts/index.md): MainPath only uploads builds to Apple and Google when your organization has given it access to App Store Connect and the Google Play Console.
+
+- [Apple developer account and App Store Connect](https://www.mainpath.ai/en/docs/app-store-developer-account/index.md): Before you can create an API key for MainPath, you need a membership in the Apple Developer Program and access to App Store Connect.
+
+- [App Store credentials](https://www.mainpath.ai/en/docs/app-store-credentials/index.md): How to create an App Store Connect API key and store it in MainPath together with the team ID and team name.
+
+- [App Store: Create a bundle identifier](https://www.mainpath.ai/en/docs/app-store-bundle-identifiers/index.md): For iOS and macOS, MainPath offers the bundle identifiers of your Apple team for selection; you create new identifiers in the Apple Developer portal.
+
+- [Google Play developer account](https://www.mainpath.ai/en/docs/google-play-developer-account/index.md): For Android releases through Google Play you need a developer account in the Google Play Console before you can create a service account for MainPath.
+
+- [Play Store credentials](https://www.mainpath.ai/en/docs/play-store-credentials/index.md): How to create a Google Cloud service account for the Google Play Android Developer API, grant it access in the Play Console, and store the JSON key in MainPath.
+
+- [Play Store: Create an app and package name](https://www.mainpath.ai/en/docs/play-store-package-names/index.md): For Android, MainPath offers the apps of your Play Store account for selection; you create a new app with its package name in the Google Play Console.
+
+- [Android: Import the upload key](https://www.mainpath.ai/en/docs/android-keystore-import/index.md): An app that is already on Google Play must keep being signed with its original upload key; you import that key into MainPath once.
+
+- [Store metadata: title, description, and screenshots](https://www.mainpath.ai/en/docs/store-metadata/index.md): All store texts and images of your app live version-controlled in the app repository, and the pipeline uploads them every time it publishes.
+
+- [App store review notes](https://www.mainpath.ai/en/docs/app-store-review/index.md): Apple and Google review every submission before the app appears in the store; a demo account for the reviewers and complete metadata prevent the most common rejections.
+
+- [Publish desktop applications](https://www.mainpath.ai/en/docs/publish-desktop-apps/index.md): The pipeline builds installers for macOS, Windows, and Linux, signs them if you want, and uploads macOS apps to the Mac App Store when needed.
+
+- [Azure Artifact Signing: setup](https://www.mainpath.ai/en/docs/azure-artifact-signing-setup/index.md): How to create an Artifact Signing account in Azure, get your organization verified, and set up the certificate profile and service principal for the pipeline.
+
+- [Azure Artifact Signing: credentials](https://www.mainpath.ai/en/docs/azure-artifact-signing-credentials/index.md): MainPath signs Windows builds with your service principal and certificate profile from Azure, whose values you store once for the organization.
+
+- [Microsoft Store: developer account](https://www.mainpath.ai/en/docs/microsoft-store-developer-account/index.md): For the Microsoft Store you need a Partner Center account with an associated Entra tenant and a created app before you can generate credentials for MainPath.
+
+- [Microsoft Store: credentials](https://www.mainpath.ai/en/docs/microsoft-store-credentials/index.md): MainPath submits Windows apps through an Entra app registration with the Partner Center Manager role, whose values you store together with the Seller ID.
+
+- [Publish browser apps](https://www.mainpath.ai/en/docs/publish-web-apps/index.md): A browser app built with Flutter Web, React Native Web, or Next.js runs as a Docker container on your server, gets its dev address automatically, and uses your own domain in production.
+
+- [Publish websites](https://www.mainpath.ai/en/docs/publish-websites/index.md): Hugo and Astro sites consist of static files that the pipeline builds and delivers either to your Docker server or to an existing web space.
+
+- [Publish the backend](https://www.mainpath.ai/en/docs/publish-backend/index.md): Your NestJS, FastAPI, or Laravel backend runs as a Docker container on your server, together with the MySQL database, the uploads, and the helper services that belong to it.
+
+- [Backups](https://www.mainpath.ai/en/docs/backups/index.md): Easy Backup backs up the MySQL database and the uploads of your backend on a schedule or on demand and restores individual backups.
+
+- [Operations](https://www.mainpath.ai/en/docs/operations/index.md): After the first deployment, the work shifts to spotting errors early, tracing releases, and going back to the last working state when needed.
+
+- [Libraries](https://www.mainpath.ai/en/docs/libraries/index.md): A project can contain package repositories whose pipeline publishes your own packages and Docker images to the private GitLab registries of your organization.
+
+- [Whitelabel apps](https://www.mainpath.ai/en/docs/whitelabel-apps/index.md): In whitelabel mode you run several brand variants from one app codebase, each with its own name, logo, domains, and store listings.
+
+- [Architecture](https://www.mainpath.ai/en/docs/architecture/index.md): GitLab pipelines build Docker images, a GitOps repository records which version runs where, and Ansible brings that state to servers that MainPath has set up with Traefik, a firewall, and HTTPS.
+
+
+
+## Optional
+- [English llms.txt](https://www.mainpath.ai/en/llms.txt)
+
+- [Deutsch llms.txt](https://www.mainpath.ai/de/llms.txt)
+

@@ -1,0 +1,38 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.mainpath.ai/en/blog/api-keys/index.md
+sources:
+- https://www.mainpath.ai/en/blog/api-keys/index.md
+- https://www.mainpath.ai/en/docs/github-credentials/index.md
+- https://www.mainpath.ai/en/docs/gitlab-credentials/index.md
+- https://www.mainpath.ai/en/docs/openai-credentials/index.md
+description: Authentication schemes described in the provided pages for MainPath and its connections.
+schemes:
+- type: apiKey
+  name: Personal API Key
+  evidence: Personal API keys let the mp CLI, your CI runs and your own scripts authenticate against MainPath without anyone signing in through
+    a browser.
+  how_to_obtain: Create a personal API key in your account settings; the secret value is shown once after creation.
+- type: apiKey
+  name: GitHub Personal Access Token
+  evidence: If OAuth is unavailable, store a personal access token.
+  how_to_obtain: Create a token in GitHub under Settings → Developer settings → Personal access tokens with repository, workflow, and package
+    access.
+- type: oauth2
+  name: GitHub OAuth
+  evidence: Connect with GitHub (OAuth) is the recommended path.
+  how_to_obtain: Configure a GitHub OAuth app for MainPath (client ID and secret) and use the Connections UI to authorize.
+- type: apiKey
+  name: GitLab Personal Access Token
+  evidence: Otherwise store a personal access token; that also covers self‑hosted instances.
+  how_to_obtain: Create a token in GitLab under Preferences → Access Tokens (or Group → Access Tokens) with the api scope.
+- type: oauth2
+  name: GitLab OAuth
+  evidence: Connect with GitLab (OAuth against GitLab.com) is recommended.
+  how_to_obtain: Configure a GitLab OAuth app for MainPath (client ID and secret) and use the Connections UI to authorize.
+- type: apiKey
+  name: OpenAI API Key
+  evidence: The official third‑party path is an API key from the OpenAI Platform.
+  how_to_obtain: Create a key in the OpenAI Platform under API keys and store it in MainPath Connections.
+docs: https://www.mainpath.ai/en/blog/api-keys/index.md

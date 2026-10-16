@@ -1,0 +1,41 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.mainpath.ai/en/docs/cli-and-agent-plugin/index.md
+sources:
+- https://www.mainpath.ai/en/docs/cli-and-agent-plugin/index.md
+- https://www.mainpath.ai/en/solutions/internal-tools/index.md
+- https://www.mainpath.ai/en/docs/local-app/index.md
+- https://www.mainpath.ai/en/docs/libraries/index.md
+install:
+- method: script
+  command: curl -fsSL https://www.mainpath.ai/install.sh | sh
+- method: powershell
+  command: irm https://www.mainpath.ai/install.ps1 | iex
+commands:
+- group: authentication
+  commands:
+  - mp login
+  - mp logout
+  - mp whoami
+- group: diagnostics
+  commands:
+  - mp doctor
+  - mp cli-update check
+  - mp cli-update update-now
+- group: agent
+  commands:
+  - mp agent install
+- group: project
+  commands:
+  - mp platform projects clone <project-slug>
+- group: utility
+  commands:
+  - mp run-local
+  - mp ports
+  - mp workspace info
+  - mp git auto-commit
+  - mp secrets edit <file>
+  - mp --version
+binary: mp
+docs: https://www.mainpath.ai/en/docs/cli-and-agent-plugin/index.md

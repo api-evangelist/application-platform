@@ -1,23 +1,113 @@
 aid: application-platform
+
 name: doppelt.digital
-description: 'doppelt.digital is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.mainpath.ai/img/og/mainpath.png
+
+description: Doppelt.digital is a product listed on the MainPath platform, offering a comprehensive low‑code development and deployment environment
+  for building, hosting, and managing modern applications. It provides templates, CI/CD pipelines, cloud‑native infrastructure, and integrated
+  monitoring, targeting small to medium teams seeking rapid project bootstrapping and scalable operations across Europe. The service emphasizes
+  data privacy, European hosting, and a modular toolbox for developers and DevOps engineers.
+
 url: https://raw.githubusercontent.com/api-evangelist/application-platform/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-16 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-15'
+
 modified: '2026-10-15'
+
 tags:
-- Company
-apis: []
+- Low-code
+- Development Platform
+- Cloud Hosting
+- European SaaS
+- Automation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/application-platform-plans-pricing.yml
+- type: Spectral
+  url: rules/application-platform-rules.yml
+- type: CLI
+  url: cli/application-platform-cli.yml
+- type: Authentication
+  url: authentication/application-platform-authentication.yml
+- type: Conformance
+  url: conformance/application-platform-conformance.yml
+- type: LLMsTxt
+  url: llms/application-platform-llms.txt
+- type: SecurityTxt
+  url: well-known/application-platform-login-security.txt
+- type: WellKnown
+  url: well-known/application-platform-well-known.yml
+- type: Hosts
+  url: hosts/application-platform-hosts.yml
+- type: Vendors
+  url: vendors/application-platform-vendors.yml
+- type: ChangeLog
+  url: https://www.mainpath.ai/en/changelog
+- type: DomainSecurity
+  url: security/application-platform-domain-security.yml
 - type: Website
   url: https://application-platform.com/
+- type: Documentation
+  url: https://www.mainpath.ai/en/docs
+- type: Pricing
+  url: https://www.mainpath.ai/en/pricing
+- type: Blog
+  url: https://www.mainpath.ai/en/blog
+- type: TermsOfService
+  url: https://www.mainpath.ai/en/terms/
+- type: PrivacyPolicy
+  url: https://www.mainpath.ai/en/privacy/
+- type: Support
+  url: https://www.mainpath.ai/en/support
+
+apis:
+- name: MainPath API
+  description: API for MainPath platform providing low‑code development and deployment services.
+  humanURL: https://www.mainpath.ai/en/docs
+  baseURL: https://api.mainpath.ai
+  aid: application-platform:mainpath-api
+- aid: application-platform:application-platform-api
+  name: doppelt.digital API
+  description: 'doppelt.digital API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-16);
+
+    not the provider''s own document.'
+  humanURL: https://www.mainpath.ai/en/docs/quickstart
+  baseURL: https://api.openai.com
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/application-platform-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Documentation pages exist but no OpenAPI/AsyncAPI/GraphQL spec was found.
+  evidence:
+  - url: https://api.mainpath.ai/openapi.json
+    status: 404
+  - url: https://api.application-platform.com/openapi.json
+    status: 404
+  checked: '2026-10-16'
+x-enrichment:
+  date: '2026-10-16'
+  status: enriched
+  artifacts_added: 16
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

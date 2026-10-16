@@ -1,0 +1,36 @@
+generated: '2026-10-16'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.mainpath.ai/en/pricing/
+sources:
+- https://www.mainpath.ai/en/pricing/
+- https://www.mainpath.ai/en/pricing/index.md
+name: doppelt.digital pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Starter
+  price_text: €29 Price per month
+  price: 29
+  description: Ideal for startups that want to launch their first projects quickly.
+- name: Team
+  price_text: €99 Price per month
+  price: 99
+  description: For growing teams with multiple projects
+- name: Agency
+  price_text: €249 Price per month
+  price: 249
+  description: Great for many projects and clear separation between clients.
+- name: Enterprise
+  price_text: On request
+  description: The right fit for deployments in large companies.
+  features:
+  - Custom projects
+  - Custom users
+  - Features depend heavily on your company; we are happy to integrate custom features.
+  limits:
+  - name: Projects included
+    limit_text: Custom
+  - name: Users included
+    limit_text: Custom
+docs: https://www.mainpath.ai/en/pricing/

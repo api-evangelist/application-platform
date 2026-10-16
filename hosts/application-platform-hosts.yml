@@ -1,0 +1,115 @@
+generated: '2026-10-16'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 9
+  own: 2
+  other_domain: 7
+  platform: 0
+  roles:
+  - api
+  - docs
+  - identity
+  - other
+  - website
+hosts:
+- host: api.application-platform.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: application-platform.com
+  role: api
+  relation: own
+- host: api.mainpath.ai
+  found_by:
+  - apis[]
+  - contract-discovery
+  types: []
+  serves:
+  - api
+  registrable_domain: mainpath.ai
+  role: api
+  relation: other-domain
+- host: api.openai.com
+  found_by:
+  - apis[]
+  - vendor-detect
+  types: []
+  serves:
+  - api
+  - cdn
+  vendor: cloudflare
+  registrable_domain: openai.com
+  role: api
+  relation: other-domain
+- host: application-platform.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: application-platform.com
+  role: website
+  relation: own
+- host: docs.hetzner.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: hetzner.com
+  role: docs
+  relation: other-domain
+- host: login.ionos.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: ionos.com
+  role: identity
+  relation: other-domain
+- host: registry.terraform.io
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: terraform.io
+  role: other
+  relation: other-domain
+- host: www.mainpath.ai
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - ChangeLog
+  - Documentation
+  - Pricing
+  - Blog
+  - TermsOfService
+  - PrivacyPolicy
+  - Support
+  serves:
+  - docs
+  registrable_domain: mainpath.ai
+  role: docs
+  relation: other-domain
+- host: www.united-domains.de
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: united-domains.de
+  role: other
+  relation: other-domain
