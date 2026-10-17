@@ -1,0 +1,21 @@
+{
+  "provider": "application-platform",
+  "sources": [
+    "_ae-authored/application-platform-openapi-generated.yml"
+  ],
+  "outputs": [
+    "application-platform-doppelt-digital-api-api-openapi.yml",
+    "application-platform-install-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "application-platform-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "application-platform-openapi-generated.yml: tagged paths GET /v1/{v1id} -> Doppelt.digital API",
+    "application-platform-openapi-generated.yml: declared missing tag: Doppelt.digital API",
+    "apis.yml register: written (+2 apis, 3 total)"
+  ],
+  "skipped": []
+}

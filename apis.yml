@@ -83,18 +83,27 @@ apis:
   humanURL: https://www.mainpath.ai/en/docs
   baseURL: https://api.mainpath.ai
   aid: application-platform:mainpath-api
-- aid: application-platform:application-platform-api
-  name: doppelt.digital API
-  description: 'doppelt.digital API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-16);
-
-    not the provider''s own document.'
-  humanURL: https://www.mainpath.ai/en/docs/quickstart
-  baseURL: https://api.openai.com
+- aid: application-platform:application-platform-doppelt-digital-api-api
+  name: doppelt.digital Doppelt.digital API
+  description: >-
+    The Doppelt.digital API API from doppelt.digital — 1 operation(s) for doppelt.digital api.
+  humanURL: https://www.mainpath.ai/en/docs
+  baseURL: https://api.mainpath.ai
+  tags:
+  - Doppelt.digital API
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/application-platform-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/application-platform-doppelt-digital-api-api-openapi.yml
+- aid: application-platform:application-platform-install-api
+  name: doppelt.digital Install API
+  description: The Install API from doppelt.digital — 1 operation(s) for install.
+  humanURL: https://www.mainpath.ai/en/docs
+  baseURL: https://api.mainpath.ai
+  tags:
+  - Install
+  properties:
+  - type: OpenAPI
+    url: openapi/application-platform-install-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
